@@ -1,3 +1,7 @@
 stages:
-  Build:
-    active: false
+  - build
+ 
+build:
+  stage: build
+  script:
+    - echo "Skipping build — nothing to compile"
