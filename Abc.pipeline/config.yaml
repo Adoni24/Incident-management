@@ -1,7 +1,3 @@
-stages:
-  - build
- 
-build:
-  stage: build
-  script:
-    - echo "Skipping build — nothing to compile"
+steps:
+  mtaBuild:
+    applicationName: 'incident-management'
